@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REDV-Farming-Tool", "REDV-Farming-Tool\REDV-Farming-Tool.csproj", "{BB49F937-A2C5-4D07-B5F0-CB94D24DEA84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB49F937-A2C5-4D07-B5F0-CB94D24DEA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB49F937-A2C5-4D07-B5F0-CB94D24DEA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB49F937-A2C5-4D07-B5F0-CB94D24DEA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB49F937-A2C5-4D07-B5F0-CB94D24DEA84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B743F7F-D9BC-46C6-B4C3-554800794A1C}
+	EndGlobalSection
+EndGlobal
