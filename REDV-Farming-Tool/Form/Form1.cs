@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -22,9 +23,12 @@ namespace REDV_Farming_Tool {
         private void KeySender_DoWork(object sender, DoWorkEventArgs e) {
             while (true) {
                 if (Send) {
-                    Simulate.Events().Click("e").Invoke();
+                    Simulate.Events().Hold(WindowsInput.Events.KeyCode.W)
+                        .Wait((int)DelayNumericBox.Value)
+                        .Release(WindowsInput.Events.KeyCode.E)
+                        .Invoke();
                 }
-                Thread.Sleep((int)DelayNumericBox.Value);
+                Thread.Sleep(500);
             }
         }
     }
