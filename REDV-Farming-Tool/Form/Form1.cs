@@ -23,7 +23,7 @@ namespace REDV_Farming_Tool {
         private void KeySender_DoWork(object sender, DoWorkEventArgs e) {
             while (true) {
                 if (Send) {
-                    Simulate.Events().Hold(WindowsInput.Events.KeyCode.W)
+                    Simulate.Events().Hold(WindowsInput.Events.KeyCode.E)
                         .Wait((int)DelayNumericBox.Value)
                         .Release(WindowsInput.Events.KeyCode.E)
                         .Invoke();
