@@ -7,5 +7,5 @@
 ## Abhängigkeiten 
 [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0/runtime)
 
-### Credits
-[WindowsInput](https://github.com/MediatedCommunications/WindowsInput)
+## Credits
+[WindowsInput](https://github.com/MediatedCommunications/WindowsInput/) using [MIT-License](https://github.com/MediatedCommunications/WindowsInput/blob/master/LICENSE.txt)
