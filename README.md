@@ -1,7 +1,7 @@
 # Instructions
 1. Open the Program
 2. Click Start
-3. Switch to FiveM
+3. Switch to FiveM (ALT+TAB)
 4. Profit
 
 ## Dependencies 
