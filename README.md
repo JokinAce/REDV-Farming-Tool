@@ -1,10 +1,10 @@
-# Instructions
-1. Open the Program
-2. Click Start
-3. Switch to FiveM (ALT+TAB)
+# Anleitung
+1. Öffne den Program
+2. Drücke Start
+3. Wechseln sie zu FiveM (ALT+TAB)
 4. Profit
 
-## Dependencies 
+## Abhängigkeiten 
 [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0/runtime)
 
 ### Credits
