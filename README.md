@@ -1,7 +1,7 @@
 # Anleitung
-1. Öffne den Program
-2. Drücke Start
-3. Wechseln sie zu FiveM (ALT+TAB)
+1. Öffne den Program  
+**2**. Drücke Start  
+**3**. Wechsel zurück zu FiveM (ALT+TAB)  
 4. Profit
 
 ## Abhängigkeiten 
