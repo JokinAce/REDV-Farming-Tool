@@ -4,7 +4,7 @@
 **3**. Wechsel zurück zu FiveM (ALT+TAB)  
 4. Profit
 
-## Abhängigkeiten 
+## Abhängigkeit für ältere Versionen
 [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0/runtime)
 
 ## Credits
