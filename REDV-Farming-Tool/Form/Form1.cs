@@ -1,34 +1,34 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Runtime.InteropServices;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsInput;
 
 namespace REDV_Farming_Tool {
+
     public partial class Form1 : Form {
+
         public Form1() {
-            InitializeComponent();
-            KeySender.RunWorkerAsync();
+            this.InitializeComponent();
+            this.KeySender.RunWorkerAsync();
         }
+
         private static bool Send = false;
 
-        private async void StartBtn_Click(object sender, EventArgs e) {
-            await Task.Delay(2000).ConfigureAwait(false);
+        private void StartBtn_Click(object sender, EventArgs e) {
             Send = !Send;
-            StartBtn.Text = Send ? "Stop" : "Start";
+            this.StartBtn.Text = Send ? "Stop" : "Start";
         }
 
         private void KeySender_DoWork(object sender, DoWorkEventArgs e) {
             while (true) {
                 if (Send) {
                     Simulate.Events().Hold(WindowsInput.Events.KeyCode.E)
-                        .Wait((int)DelayNumericBox.Value)
+                        .Wait(10)
                         .Release(WindowsInput.Events.KeyCode.E)
                         .Invoke();
                 }
-                Thread.Sleep(500);
+                Thread.Sleep((int)this.DelayNumericBox.Value);
             }
         }
     }
